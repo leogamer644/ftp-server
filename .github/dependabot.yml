@@ -5,11 +5,11 @@ updates:
     directory: "/"  
     schedule:
       interval: "weekly"
-   # github actions     
+  # GitHub Actions     
   - package-ecosystem: "github-actions"
-      directory: "/"
-      schedule:
-        interval: daily
-      labels:
-        - "dependencies"
-        - "skip-changelog"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
+      - "skip-changelog"
